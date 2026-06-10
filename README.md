@@ -97,5 +97,3 @@ The main reported metric is `foreground_mean.Dice` from each `validation_summary
 ## Notes
 
 - `run8_morph_aksha_FAILED/` is documented for transparency but should not be included in final quantitative comparisons.
-- The repository is an experiment archive, not a standalone training package. Environment paths in the SLURM scripts are cluster-specific and may need to be edited before reuse.
-- Large data files and model checkpoints are intentionally not included here.
