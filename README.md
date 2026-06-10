@@ -4,7 +4,7 @@ This repository contains the training scripts, logs, validation summaries, and s
 
 ## Research Question
 
-Does the ULS course baseline overfit to the limited training data, and can stronger spatial augmentation reduce this overfitting and improve generalization to unseen lesion shapes?
+Can stronger spatial augmentation improve validation performance and generalization to unseen lesion shapes?
 
 The experiments compare the default nnU-Net augmentation policy against stronger spatial augmentation settings, including wider rotation, stronger elastic deformation, and wider scaling.
 
