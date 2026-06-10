@@ -1,0 +1,73 @@
+=== Started on cn48 at Tue Jun  2 06:22:01 PM CEST 2026 ===
+/vol/csedu-nobackup/course/IMC037_aimi/group08/aksha_venv/bin/python
+Python 3.10.12
+Tue Jun  2 18:22:01 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     Off |   00000000:3E:00.0 Off |                  N/A |
+| 28%   36C    P8             11W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== Starting fresh: 100ep with RandomLesionMorphologyTransform (Akshaya ablation) ===
+
+############################
+INFO: You are using the old nnU-Net default plans. We have updated our recommendations. Please consider using those instead! Read more here: https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/resenc_presets.md
+############################
+
+Using device: cuda:0
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+2026-06-02 18:22:20.739461: Using torch.compile...
+2026-06-02 18:22:22.216389: do_dummy_2d_data_aug: False
+StrongAug transforms built successfully
+2026-06-02 18:22:22.229377: Using splits from existing split file: /vol/csedu-nobackup/course/IMC037_aimi/group08/aimi-project/data/preprocessed/Dataset400_FSUP_ULS/splits_final.json
+2026-06-02 18:22:22.255215: The split file contains 5 splits.
+2026-06-02 18:22:22.256777: Desired fold for training: 0
+2026-06-02 18:22:22.258076: This split has 4629 training and 1158 validation cases.
+using pin_memory on device 0
+
+
+###############################################################################
+Science Cluster
+Job 10298848 for user 'akshayakumar'
+Finished at: Tue Jun  2 20:10:15 CEST 2026
+
+Job details:
+============
+
+Name                : morph_aksha
+User                : akshayakumar
+Partition           : csedu
+Nodes               : cn48
+Cores               : 6
+State               : CANCELLED by 49266,CANCELLED
+Submit              : 2026-06-02T18:22:00
+Start               : 2026-06-02T18:22:01
+End                 : 2026-06-02T20:10:14
+Reserved walltime   : 08:00:00
+Used walltime       : 01:48:13
+Used CPU time       : 10:32:41 (efficiency: 97.44%)
+% User (Computation): 76.42%
+% System (I/O)      : 23.58%
+Mem reserved        : 16G
+Max Mem used        : 12.39G (cn48)
+Max Disk Write      : 0.00  (cn48)
+Max Disk Read       : 92.16K (cn48)
+
