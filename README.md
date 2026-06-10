@@ -6,7 +6,7 @@ The goal of the project was to test whether stronger data augmentation improves 
 
 ## Research Question
 
-Can stronger spatial and intensity augmentation improve lesion segmentation performance on the ULS23 task?
+For ULS lesion segmentation with a lightweight nnU-Net baseline, which contributes more to validation performance — training duration or spatial augmentation strength?
 
 We compared the default nnU-Net setup against several custom augmentation policies:
 
