@@ -93,7 +93,3 @@ Some 300-epoch runs were resumed across multiple jobs using `checkpoint_latest.p
 ## Validation Metrics
 
 The main reported metric is `foreground_mean.Dice` from each `validation_summary.json`. These JSON files also include per-case metrics such as false positives, false negatives, IoU, true positives, true negatives, and Dice.
-
-## Notes
-
-- `run8_morph_aksha_FAILED/` is documented for transparency but should not be included in final quantitative comparisons.
