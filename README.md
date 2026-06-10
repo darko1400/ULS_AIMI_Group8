@@ -2,8 +2,6 @@
 
 This repository contains the nnU-Net v2 training code, SLURM launch scripts, logs, and validation summaries for our ULS23 lesion segmentation augmentation experiments.
 
-The goal of the project was to test whether stronger data augmentation improves validation performance and generalization to unseen lesion shapes compared with the default nnU-Net augmentation policy.
-
 ## Research Question
 
 For ULS lesion segmentation with a lightweight nnU-Net baseline, which contributes more to validation performance — training duration or spatial augmentation strength?
